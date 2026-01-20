@@ -7,7 +7,7 @@ max_attempts = 5
 attempts = 0
 
 for attempt in range(max_attempts):
-    guess = random.randint(15, 50)  # Expanded range
+    guess = random.randint(15, 200)  # Expanded range
     attempts += 1
     print(f"\nAttempt {attempts}/{max_attempts}: Is your age {guess}?")
     print("Enter 'y' for yes, 'N' for older, 'Y' for younger: ")
