@@ -10,13 +10,13 @@ for attempt in range(max_attempts):
     guess = random.randint(15, 50)  # Expanded range
     attempts += 1
     print(f"\nAttempt {attempts}/{max_attempts}: Is your age {guess}?")
-    print("Enter 'y' for yes, 'N' for older, 'o' for younger: ")
+    print("Enter 'y' for yes, 'N' for older, 'Y' for younger: ")
     answer = input().lower()
     
     if answer == 'y':
         print(f"\nYay! I guessed it! {name} is {guess} years old.")
         break
-    elif answer == 'o':
+    elif answer == 'Y':
         print("OK, you're older than that. Let me think...")
     elif answer == 'N':
         print("OK, you're younger than that. Let me think...")
