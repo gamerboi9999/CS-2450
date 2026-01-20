@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import random
 
 print("Hello! I'm going to try to guess your age.")
